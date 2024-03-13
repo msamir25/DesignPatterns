@@ -1,4 +1,4 @@
-package org.example.proxy;
+package org.example.structuralPatterns.proxy;
 
 import java.util.Arrays;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.example.proxy;
+package org.example.structuralPatterns.proxy;
 
 public class Vodafone implements InternetServiceProvider{
     private int browsingSpeed = 10;

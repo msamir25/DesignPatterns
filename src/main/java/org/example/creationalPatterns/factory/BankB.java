@@ -1,4 +1,4 @@
-package org.example.factory;
+package org.example.creationalPatterns.factory;
 
 public class BankB implements IBank{
     public String withdrow(){
