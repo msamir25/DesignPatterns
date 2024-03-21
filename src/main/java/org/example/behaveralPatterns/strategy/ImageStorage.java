@@ -2,8 +2,6 @@ package org.example.behaveralPatterns.strategy;
 
 public class ImageStorage {
 
-
-
     public ImageStorage() {
 
     }
