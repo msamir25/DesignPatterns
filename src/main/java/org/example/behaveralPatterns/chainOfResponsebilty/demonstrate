@@ -1,0 +1,19 @@
+The chain of responsibility is a design pattern described in the book Design Patterns: Elements of Reusable Object-Oriented Software. This pattern allows a request to be passed along a chain of objects until one of the objects can handle the request or the chain ends.
+
+As the name suggests, each object in the chain is responsible for handling a specific task or request. If an object receives a request that it cannot handle, it passes the request to the next object in the chain.
+
+Using this design pattern improves the flexibility and reusability of the code. Request-handling processes can modify the request or check its requirements without affecting the overall behavior of the system. This makes it easier to maintain and extend the code over time.
+
+Pros:
+    
+    1-Flexibility: The pattern allows you to add, remove, or modify objects without affecting the overall behavior of the system.
+    2-Reusability: Objects in the chain can be reused in other chains or other parts of the system, reducing development time on subsequent projects.
+    3-Open/Closed Principle: The chain of responsibility design pattern follows the open/closed principle, which means you can add new objects to the chain without modifying   
+          the core logic.
+    4-Decoupling: The pattern decouples the sender of a request from its receiver, allowing you to change the handling of the request without affecting th
+
+Cons:
+
+   1- Performance: Since each request passes through multiple objects, it can affect the overall performance of the system.
+   2-Complexity: A chain involves multiple objects that interact with each other, increasing the complexity of the system.
+   3- Debugging: Debugging can be challenging when requests are passing between objects.
